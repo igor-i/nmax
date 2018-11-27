@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'nmax'
+
+count = ARGV.first.to_i
+puts Nmax.call(count)
