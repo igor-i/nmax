@@ -2,5 +2,7 @@
 
 require 'nmax'
 
-count = ARGV.first.to_i
-puts Nmax.call(count)
+count_argument = ARGV.first
+input_data = STDIN.gets
+
+puts Nmax.call(count_argument, input_data)
