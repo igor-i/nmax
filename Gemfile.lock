@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    igor-i-nmax (0.1.0)
+    nmax-igor-i (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -14,8 +14,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  igor-i-nmax!
   minitest (~> 5.11)
+  nmax-igor-i!
   rake (~> 10.0)
 
 BUNDLED WITH

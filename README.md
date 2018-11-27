@@ -1,8 +1,10 @@
+[![Build Status](https://travis-ci.org/igor-i/nmax.svg?branch=master)](https://travis-ci.org/igor-i/nmax)
+
 # Nmax
 
 This script does the following:
-  *from the incoming stream of text data;
-  *at the end of the input displays n largest integers encountered in the received text data.
+  * from the incoming stream of text data;
+  * at the end of the input displays n largest integers encountered in the received text data.
 
 ## Installation
 
