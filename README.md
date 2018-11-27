@@ -3,7 +3,7 @@
 # Nmax
 
 This script does the following:
-  * from the incoming stream of text data;
+  * reads text data from the incoming stream;
   * at the end of the input displays n largest integers encountered in the received text data.
 
 ## Installation
