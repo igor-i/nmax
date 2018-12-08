@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'nmax/version'
 require 'nmax/nmax_helper'
 
