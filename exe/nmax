@@ -4,7 +4,9 @@
 require 'bundler/setup'
 require 'nmax'
 
-count_argument = ARGV.first
-input_data = STDIN.gets
+count_argument = ARGV.first.to_i
 
-puts Nmax.call(count_argument, input_data)
+puts(STDIN.map { |line| Nmax.call(count_argument, line) }
+          .flatten
+          .sort
+          .last(count_argument))

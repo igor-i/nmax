@@ -5,7 +5,7 @@ require 'nmax'
 
 class TestNmax < Minitest::Test
   def setup
-    @input_data = 'sdafdsa sdf123$12 1%1234/ndfsdf'
+    @input_data = 'sdafdsa sdf123\n$12\r\n 1%1234/ndfsdf'
   end
 
   def test_that_last_two_digital_sequences_are_selected
@@ -26,10 +26,6 @@ class TestNmax < Minitest::Test
 
   def test_with_negative_output_count
     assert_equal [], Nmax.call(-1, @input_data)
-  end
-
-  def test_with_not_a_numeric_output_count
-    assert_equal [1234], Nmax.call('1', @input_data)
   end
 
   def test_with_empty_input_data
